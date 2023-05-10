@@ -1,0 +1,41 @@
+<!--seccion hard y soft skills-->
+<section class="skills">
+    <h1 class="titulo-skills titulo">Hard y soft skills </h1>
+    <div class="container letra-subtitulo">
+      <div class="row">
+        <div class="col-3 text-center" *ngFor="let habilidad of habilidades" >
+          <div>{{habilidad.nombre }} </div>
+          <div class="progress-circle progress-85" [style.witdh.%]="habilidad.porcentaje"><span>{{ habilidad.porcentaje }}</span></div>
+          <div class="container-fluid d-flex justify-content-center">
+            <div class="row">
+              <div class="col-6">
+      <!-- Button trigger modal/boton editar/skill -->
+      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal1">
+        <i class="fa-solid fa-pencil"></i>
+      </button>
+                      </div>
+                  <div class="col-6">
+            <!-- Button trigger modal/boton eliminar/skill -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal2">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+          
+
+
+
+
+<!--******************************************************* -->
+
+    
+     
+
+
+      </div>
+
+    </div>
+    </section>

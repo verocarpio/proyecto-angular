@@ -1,0 +1,25 @@
+/* seccion presentacion o sobre mi */
+
+.presentacion{
+    padding: 5%;
+}
+.nombrePerfil {
+    font-size: 5rem;
+    font-family: 'Stick No Bills', sans-serif;
+    padding: 5%;
+
+}
+.img{
+    justify-content: left;
+    display: flex;
+}
+#sobre-mi{
+    background-color: #e0f9f7a9;
+      
+}
+.imgPerfil{
+    box-shadow: 6px 6px 5px 2px rgb(186, 223, 215);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}

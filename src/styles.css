@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(../assets/IMG/pantalla-imagen.jpg);
+}
+.titulo{
+    font-size: 2rem;
+    font-family: 'Stick No Bills', sans-serif;
+}
+.letra-subtitulo{
+    font-size: 1.rem;
+    font-family: 'Stick No Bills', sans-serif;
+} 
