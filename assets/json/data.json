@@ -1,0 +1,74 @@
+{
+
+    "nombre" : "Verónica",
+    "apellido": "Carpio",
+    "acerca de mi": "lorem ipsum",
+    "foto" : "",
+    "imageBanner" : "",
+ 
+
+
+
+    "educacion":
+    [
+        {
+            "id":1,
+            "institucion": "universidad Nacional de La Rioja",
+            "descripcion": "",
+            "inicio": "2018",
+            "imagen": "assets/IMG/logo-universidad.png",
+            "alt": "logo de la UnLaR"
+
+
+        },
+        {
+            "id":2,
+            "institucion": "Sé programar",
+            "descripcion": "",
+            "inicio": "Junio 2022",
+            "imagen": "assets/IMG/logoArgenPrograma.jpg",
+            "alt": ""
+
+
+        },
+        {
+            "id":3,
+            "institucion": "Codo a codo",
+            "descripcion": "",
+            "inicio": "Agosto 2022",
+            "imagen": "assets/IMG/codo-a-codo.png",
+            "alt": "logo de codo a codo"
+
+
+        }
+    ],
+    "habilidades" : 
+    [
+        {
+            "id" :1,
+            "nombre" : "HTML",
+            "porcentaje" : "85",
+            "estilos" :"progress-circle"
+        },
+        {
+            "id" :2,
+            "nombre" : "CSS",
+            "porcentaje" : "85",
+            "estilos" :"progress-circle"
+
+        },
+        {
+            "id" :3,
+            "nombre" : "JavaScript",
+            "porcentaje" : "85",
+            "estilos" :"progress-circle"
+        },
+        {
+            "id" :4,
+            "nombre" : "Phyton",
+            "porcentaje" : "80",
+            "estilos" :"progress-circle"
+        }
+    ]    
+
+}
